@@ -44,6 +44,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 	files := []string{
 		"./ui/html/base.html",
 		"./ui/html/pages/home.html",
+		"./ui/html/partials/nav.html",
 	}
 	// Use the template.ParseFiles() function to read the files and store the
 	// templates in a template set. Notice that we can pass the slice of file
